@@ -1,0 +1,6 @@
+env
+backend/backend/__pycache__
+backend/app/__pycache__
+backend/app/management/commands/__pycache__
+backend/app/migrations/__pycache__
+node_modules

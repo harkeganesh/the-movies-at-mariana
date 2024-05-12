@@ -1,0 +1,71 @@
+/* styles.css */
+
+.movies-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Prevent wrapping to new rows */
+    overflow-x: auto;
+    /* Enable horizontal scrolling if needed */
+}
+
+.movie {
+    flex: 0 0 auto;
+    /* Ensure each movie takes up its content width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    /* Add spacing between movies */
+}
+
+.movie img {
+    width: 100px;
+    /* Set the width of the poster */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.movie-details {
+    text-align: center;
+    /* Center-align movie details */
+}
+
+/* CSS for the movie table */
+.movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Table header style */
+.movie-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Table cell style */
+.movie-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Alternating row colors */
+.movie-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Responsive table */
+@media screen and (max-width: 600px) {
+    .movie-table {
+        overflow-x: auto;
+    }
+
+    .movie-table th,
+    .movie-table td {
+        white-space: nowrap;
+        min-width: 100px;
+    }
+}
