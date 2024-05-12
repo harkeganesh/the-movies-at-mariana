@@ -3,7 +3,7 @@
 The Movies at Mariana is a web application for viewing and filtering a list of movies. It allows users to browse movies by genre, search for specific titles, and view details about each movie.
 
 ## Dependencies
-1. Install npm
+1. Install npn
 2. Install Python
 
 ### One click run
