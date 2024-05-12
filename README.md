@@ -11,7 +11,7 @@ Open command prompt/terminal and run below command.
 ```
 npm start
 ```
-This will open  `http://localhost:3000` in default browser.
+Please wait for few (5-7) minutes to complete `npm install` command.This will open  `http://localhost:3000` in default browser.
 
 ## For Developers
 

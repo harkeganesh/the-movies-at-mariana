@@ -62,7 +62,7 @@ function startServers() {
         console.error(stderr);
     });
 
-    exec('cd frontend && npm start', (err, stdout, stderr) => {
+    exec('cd frontend && npm install && npm start', (err, stdout, stderr) => {
         if (err) {
             console.error('Error starting React server:', err);
             return;
